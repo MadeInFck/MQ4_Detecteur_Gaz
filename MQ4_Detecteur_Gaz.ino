@@ -16,7 +16,7 @@ void loop() {
   
 
   if ((millis()-temps) < 5000) {
-    if (val > 400) {
+    if (val > 600) {
       digitalWrite(8,HIGH);
       digitalWrite(13,HIGH);
       //Serial.println("Détection haute");
